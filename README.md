@@ -1,7 +1,30 @@
 # Doctor appoitments system
 
+## UI URL : http://localhost:9000
 ## Swagger URL : http://localhost:9000/swagger-ui/index.html
 
+### Technical requirements
+- Java >= 21
+- maven >= 3.9.5
+- mysql
+- npm
+
+### terminal code to execute program
+
+#### Step 1: Run maven command
+``` bash
+mvn clean install -Pproduction
+```
+
+#### Step2: Execute jar file
+``` bash
+java -jar ./target/doctor-appointment.jar
+```
+
+#### Step 3: Visit UI http://localhost:9000
+
+
+## API documentation
 ### Api to get all Doctors
 ```bash
 curl -X 'GET' \
